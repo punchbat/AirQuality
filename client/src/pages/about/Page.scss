@@ -1,0 +1,21 @@
+.about {
+    max-width: 900px;
+    margin: 0 auto;
+
+    &__inner {
+        margin: 0 auto;
+    }
+
+    &__title {
+    }
+
+    &__title_wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        column-gap: 8px;
+        align-items: center;
+    }
+
+    &__content {
+    }
+}
